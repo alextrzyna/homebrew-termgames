@@ -1,25 +1,25 @@
 class TgLadder < Formula
   desc "Ladder — a Kaypro-inspired ASCII platformer"
   homepage "https://github.com/alextrzyna/termgames"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.0/tg-ladder-aarch64-apple-darwin.tar.xz"
-      sha256 "f67e6b45683744bbf872211739911bff2c90daf11d7ecf737a10e8d7cdd4cec5"
+      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.1/tg-ladder-aarch64-apple-darwin.tar.xz"
+      sha256 "62529f0fe71282a9f2bc7a4398163c0fbdf14f82a19c7f2aad048ced564f3a29"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.0/tg-ladder-x86_64-apple-darwin.tar.xz"
-      sha256 "f955bccf234ce7e976341168e5b346752f1f7589e16e3a9771cb8393fd444ec0"
+      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.1/tg-ladder-x86_64-apple-darwin.tar.xz"
+      sha256 "2696eca3af348a8173daca3dce56189adce0193928f3b415dbd71ae69801ca1f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.0/tg-ladder-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "604840a6eb30d1334efd1cfb4d496c7d5a3a606125ebcaf4aa2918b019bce7ab"
+      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.1/tg-ladder-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "30d3a09548ec834f88df062e6e07c36d34ccba48728ace01acb6418744c8f9f1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.0/tg-ladder-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3b90508e73e45ad7124ffcc0cc104ec1cf1461553c31678d7cfbb3c27eb7e9b4"
+      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.1/tg-ladder-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "dc3dee8c891dadedced675d6de164158b0032f1f8f2667a50e08d0c948c14580"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
