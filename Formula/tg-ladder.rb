@@ -1,24 +1,24 @@
 class TgLadder < Formula
   desc "Ladder — a Kaypro-inspired ASCII platformer"
-  homepage "https://github.com/alextrzyna/termgames"
+  homepage "https://github.com/Tesseric/termgames"
   version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.1/tg-ladder-aarch64-apple-darwin.tar.xz"
+      url "https://github.com/Tesseric/termgames/releases/download/v0.1.1/tg-ladder-aarch64-apple-darwin.tar.xz"
       sha256 "62529f0fe71282a9f2bc7a4398163c0fbdf14f82a19c7f2aad048ced564f3a29"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.1/tg-ladder-x86_64-apple-darwin.tar.xz"
+      url "https://github.com/Tesseric/termgames/releases/download/v0.1.1/tg-ladder-x86_64-apple-darwin.tar.xz"
       sha256 "2696eca3af348a8173daca3dce56189adce0193928f3b415dbd71ae69801ca1f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.1/tg-ladder-aarch64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/Tesseric/termgames/releases/download/v0.1.1/tg-ladder-aarch64-unknown-linux-gnu.tar.xz"
       sha256 "30d3a09548ec834f88df062e6e07c36d34ccba48728ace01acb6418744c8f9f1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.1/tg-ladder-x86_64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/Tesseric/termgames/releases/download/v0.1.1/tg-ladder-x86_64-unknown-linux-gnu.tar.xz"
       sha256 "dc3dee8c891dadedced675d6de164158b0032f1f8f2667a50e08d0c948c14580"
     end
   end
