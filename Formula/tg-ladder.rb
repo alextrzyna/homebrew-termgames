@@ -1,25 +1,25 @@
 class TgLadder < Formula
   desc "Ladder — a Kaypro-inspired ASCII platformer"
   homepage "https://github.com/Tesseric/termgames"
-  version "0.1.3"
+  version "0.1.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Tesseric/termgames/releases/download/v0.1.3/tg-ladder-aarch64-apple-darwin.tar.xz"
-      sha256 "f1b038b050643e56433114870f8e08a604224553fe4739318eda92ad99b41fc6"
+      url "https://github.com/Tesseric/homebrew-termgames/releases/download/v0.1.5/tg-ladder-aarch64-apple-darwin.tar.xz"
+      sha256 "c39deea8cb233cceb3e3daf86b5d91c9b42482bb35ee4a6cfb5315f297bf3814"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Tesseric/termgames/releases/download/v0.1.3/tg-ladder-x86_64-apple-darwin.tar.xz"
-      sha256 "02010a1b8ad7d81bfa1c8bb8d3821ced649cc301a7e94eca56be3864b5f71477"
+      url "https://github.com/Tesseric/homebrew-termgames/releases/download/v0.1.5/tg-ladder-x86_64-apple-darwin.tar.xz"
+      sha256 "2f52c129b77fbbd7c11004da10d01cf27f59ddf0e8053e3d0716fa766aef6fe1"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Tesseric/termgames/releases/download/v0.1.3/tg-ladder-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "138afd86c6185e04c4ec192f8ddd158c5ece8d9089b6290eac40d9f754ca5f31"
+      url "https://github.com/Tesseric/homebrew-termgames/releases/download/v0.1.5/tg-ladder-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "862007a66b16f2321c7b62cfcfc0cfe22160a93910b2e2d8df039348a9916422"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Tesseric/termgames/releases/download/v0.1.3/tg-ladder-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0c230dcd7b235e1e57d83a600ee89f78aa9a78916376a51cfaf066550b5873e6"
+      url "https://github.com/Tesseric/homebrew-termgames/releases/download/v0.1.5/tg-ladder-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1002387c012cc78ca7eabff7e24f784f0a7361c321930184f0b2e80ff6597725"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
