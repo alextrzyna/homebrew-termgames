@@ -1,25 +1,25 @@
 class TgLadder < Formula
   desc "Ladder — a Kaypro-inspired ASCII platformer"
   homepage "https://github.com/Tesseric/termgames"
-  version "0.1.5"
+  version "0.1.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Tesseric/homebrew-termgames/releases/download/v0.1.5/tg-ladder-aarch64-apple-darwin.tar.xz"
-      sha256 "c39deea8cb233cceb3e3daf86b5d91c9b42482bb35ee4a6cfb5315f297bf3814"
+      url "https://github.com/Tesseric/homebrew-termgames/releases/download/v0.1.6/tg-ladder-aarch64-apple-darwin.tar.xz"
+      sha256 "2b15678d3efc5e76031311fd5e9504b6495243fdb0e3f89f6324085a6e7c58a5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Tesseric/homebrew-termgames/releases/download/v0.1.5/tg-ladder-x86_64-apple-darwin.tar.xz"
-      sha256 "2f52c129b77fbbd7c11004da10d01cf27f59ddf0e8053e3d0716fa766aef6fe1"
+      url "https://github.com/Tesseric/homebrew-termgames/releases/download/v0.1.6/tg-ladder-x86_64-apple-darwin.tar.xz"
+      sha256 "4ba1c8ac87acd26a7a09c77173f0fdfe2bb4e1461f7ad3a53ef734e5baffb150"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Tesseric/homebrew-termgames/releases/download/v0.1.5/tg-ladder-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "862007a66b16f2321c7b62cfcfc0cfe22160a93910b2e2d8df039348a9916422"
+      url "https://github.com/Tesseric/homebrew-termgames/releases/download/v0.1.6/tg-ladder-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "acfeb1a788041b52658c16c90d52267ffefbd804729ded6282ad71849d08a531"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Tesseric/homebrew-termgames/releases/download/v0.1.5/tg-ladder-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "1002387c012cc78ca7eabff7e24f784f0a7361c321930184f0b2e80ff6597725"
+      url "https://github.com/Tesseric/homebrew-termgames/releases/download/v0.1.6/tg-ladder-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "23954dba37b540e262e9783191e003b7d9f9b62c67e8105c2714a03db21065b2"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
