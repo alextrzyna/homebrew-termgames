@@ -1,25 +1,25 @@
 class TgLadder < Formula
   desc "Ladder — a Kaypro-inspired ASCII platformer"
-  homepage "https://github.com/alextrzyna/termgames"
-  version "0.1.2"
+  homepage "https://github.com/Tesseric/termgames"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.2/tg-ladder-aarch64-apple-darwin.tar.xz"
-      sha256 "e515dabf8e46be5957e46769e5120e879b591bf8b28e684ac8d2246658ee8035"
+      url "https://github.com/Tesseric/termgames/releases/download/v0.1.3/tg-ladder-aarch64-apple-darwin.tar.xz"
+      sha256 "f1b038b050643e56433114870f8e08a604224553fe4739318eda92ad99b41fc6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.2/tg-ladder-x86_64-apple-darwin.tar.xz"
-      sha256 "60622dc8026288d7a690d2d110e15dddadab51b10e529ad98ceb750309d2c22f"
+      url "https://github.com/Tesseric/termgames/releases/download/v0.1.3/tg-ladder-x86_64-apple-darwin.tar.xz"
+      sha256 "02010a1b8ad7d81bfa1c8bb8d3821ced649cc301a7e94eca56be3864b5f71477"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.2/tg-ladder-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ef129fe317522ba03947fdd9a7e4355d689972a8c6096c737272d919f90274bc"
+      url "https://github.com/Tesseric/termgames/releases/download/v0.1.3/tg-ladder-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "138afd86c6185e04c4ec192f8ddd158c5ece8d9089b6290eac40d9f754ca5f31"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/alextrzyna/termgames/releases/download/v0.1.2/tg-ladder-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8e2414983887fe5a8902151d0f34f0f459b9ab5cc8a79a3e08ff121a1bca4c25"
+      url "https://github.com/Tesseric/termgames/releases/download/v0.1.3/tg-ladder-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "0c230dcd7b235e1e57d83a600ee89f78aa9a78916376a51cfaf066550b5873e6"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
